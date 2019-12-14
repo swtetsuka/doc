@@ -30,11 +30,11 @@
   - mc2 のみ別 VPC/Subnet に設置
 - 2 つの VPC を Transit Gateway で接続します
 
-<img src="http://blog.serverworks.co.jp/tech/wp-content/uploads/2019/12/29-1.png" alt="" width="663" height="607" class="alignnone size-full wp-image-77139" />
+<img src="http://blog.serverworks.co.jp/tech/wp-content/uploads/2019/12/29-1.png" width="663" class="alignnone size-full wp-image-77139" />
 
 - 下記は Trasnsit Gateway multicast domain 設定です<a href="#5">[5]</a>
 
-<img src="http://blog.serverworks.co.jp/tech/wp-content/uploads/2019/12/tgwm.png" alt="" width="2628" height="616" class="alignnone size-full wp-image-76910" />
+<img src="http://blog.serverworks.co.jp/tech/wp-content/uploads/2019/12/tgwm.png" alt="" width="2628" class="alignnone size-full wp-image-76910" />
 
 ### Group IP Address: 239.192.0.29
 - Source: mc0
