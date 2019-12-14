@@ -58,7 +58,7 @@
 mc0 からマルチキャスト IP アドレス宛の ping を実行し、mc1 と mc2 の両方に配信されることを確認できました。
 下記は上から順に mc0, mc1, mc2 のターミナルです。ping と ping6 を 3 発づつ送信しています。
 
-<img src="http://blog.serverworks.co.jp/tech/wp-content/uploads/2019/12/beef29.gif" alt="" width="1492" height="846" class="alignnone size-full wp-image-76909" />
+<img src="http://blog.serverworks.co.jp/tech/wp-content/uploads/2019/12/beef29.gif" alt="" width="1492" class="alignnone size-full wp-image-76909" />
 
 ## 気づいたこと
 - マウスポチポチで L3 マルチキャストネットワークを作成できます
