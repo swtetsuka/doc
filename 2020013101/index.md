@@ -126,6 +126,12 @@ echo {1..9} | xargs -n 3 | awk '{sum+=$2; print $2} END {print sum}'
 
 フィルタ例
 ```
+# ファイルにペースト
+cat << EOS > file
+入力を貼り付け
+EOS
+
+# 入力 > フィルタ > 出力
 cat file |
 tr ' ' '_' |
 xargs -n 2 |
