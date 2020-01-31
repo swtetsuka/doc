@@ -131,7 +131,7 @@ cat << EOS > file
 入力を貼り付け
 EOS
 
-# 入力 > フィルタ > 出力
+# フィルタ実行
 cat file |
 tr ' ' '_' |
 xargs -n 2 |
